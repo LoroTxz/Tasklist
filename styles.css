@@ -1,0 +1,27 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#tittle{
+color: #fff;
+font: 1em sans-serif;
+font-size: large;
+background-color: rgba(122, 205, 215, 0.71);
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+#btnAction{
+    
+}
+#minimizeBtn{
+    background-image: ;
+}
+#maximizeBtn{
+    background-image: ;
+}
+#closeBtn{
+    background-image: ;
+}
