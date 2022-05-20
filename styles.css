@@ -4,7 +4,7 @@
     padding: 0;
     list-style: none;
 }
-#tittle{
+#titleBar{
 color: #fff;
 font: 1em sans-serif;
 font-size: large;
@@ -13,16 +13,16 @@ display: flex;
 justify-content: space-between;
 flex-direction: row;
 }
-#btnAction button{
+#btnAction > button{
     width: 20px;
     height: 20px;
 }
-#minimizeBtn{
-    background-image: url("Icons/minimize.png");
+#maximizeBtn{
+    background-image: url("Icons/maximize.png");
     background-size: contain;
 }
-#maximizeBtn{
-    background-image: url("Icons/maximixe.png");
+#minimizeBtn{
+    background-image: url("Icons/minimize.png");
     background-size: contain;
 }
 #closeBtn{
