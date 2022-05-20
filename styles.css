@@ -13,15 +13,20 @@ display: flex;
 justify-content: space-between;
 flex-direction: row;
 }
-#btnAction{
-    
+#btnAction button{
+    width: 20px;
+    height: 20px;
 }
 #minimizeBtn{
-    background-image: ;
+    background-image: url("Icons/minimize.png");
+    background-size: contain;
 }
 #maximizeBtn{
-    background-image: ;
+    background-image: url("Icons/maximixe.png");
+    background-size: contain;
 }
 #closeBtn{
-    background-image: ;
+    background-image: url("Icons/close.png");
+    background-size: contain;
 }
+
