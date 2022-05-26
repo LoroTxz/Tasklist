@@ -1,32 +1,66 @@
-*{
+* {
+
     text-decoration: none;
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
-#titleBar{
-color: #fff;
-font: 1em sans-serif;
-font-size: large;
-background-color: rgba(122, 205, 215, 0.71);
-display: flex;
-justify-content: space-between;
-flex-direction: row;
+
+.content {
+    width: 60%;
+    margin: auto;
+    background: rgb(52, 100, 156);
+    background: linear-gradient(180deg, rgba(52, 100, 156, 1) 0%, rgba(52, 100, 156, 1) 55%, rgba(166, 59, 155, 0.8687850140056023) 100%);
 }
-#btnAction > button{
+
+#titleBar {
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    font: 1em sans-serif;
+    font-size: large;
+    background-color: rgba(122, 205, 215, 0.71);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#btnAction>button {
     width: 20px;
     height: 20px;
 }
-#maximizeBtn{
+
+#maximizeBtn {
     background-image: url("Icons/maximize.png");
     background-size: contain;
 }
-#minimizeBtn{
+
+#minimizeBtn {
     background-image: url("Icons/minimize.png");
     background-size: contain;
 }
-#closeBtn{
+
+#closeBtn {
     background-image: url("Icons/close.png");
     background-size: contain;
 }
 
+
+
+
+.Imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.Imputs {
+    font-size: 130%;
+
+
+}
+
+footer {
+    padding-top: 10%;
+    font-size: 20px;
+}
